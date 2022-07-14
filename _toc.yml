@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+chapters:
+- file: 01-getting-started/index    
+- file: 02-control-flow/index
+- file: 03-strings/index
+- file: 04-lists-tuples-and-dictionaries/index
+- file: 05-functions/index
+- file: 06-oop/index
+- file: 07-exceptions/index
+- file: 08-file-handling/index
+- file: 09-projects/index
